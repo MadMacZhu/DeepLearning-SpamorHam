@@ -1,19 +1,133 @@
-.img-preview {
-    width: 256px;
-    height: 256px;
-    position: relative;
-    border: 5px solid #F8F8F8;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    margin-top: 1em;
-    margin-bottom: 1em;    
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Poppins&display=swap');
+
+head, body {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
 }
 
-.img-preview>div {
-    width: 100%;
+.header {
+    height: 20vh;
+    background: linear-gradient(to bottom right, white, gray);
+    font-size: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 30px;
+    position: relative;
+}
+
+.logo {
     height: 100%;
-    background-size: 256px 256px;
-    background-repeat: no-repeat;
-    background-position: center;
+    display: inline-block;
+    float: left;
+    transform: translateX(10vw);
+}
+
+.title {
+    display: inline-block;
+    margin: auto;
+    transform: translateY(4rem);
+    font-weight: 700;
+    text-shadow: 1px 1px 10px gray;
+}
+
+footer {
+    display: block;
+    margin-bottom: 0vh;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 2rem;
+}
+
+footer a {
+    color: #d5d5d5;
+    text-decoration: underline;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+.col-12 {
+    text-align: center;
+    padding:2rem;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+}
+
+.ml-container {
+    display: block;
+    height: 60vh;
+}
+
+.form {
+    display: inline-block;
+    position: relative;
+    width: 40vw;
+    margin: 5vh 4vw;
+    font-size: 2rem;
+}
+
+.sample-texts{
+    display: inline-block;
+    position: relative;
+    width: 40vw;
+    margin: 5vh 4vw;
+    float: right;
+    font-size: 2rem;
+}
+
+.btn {
+    margin-top: 3vh;
+    display: inline-block;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-top: 3vh;
+}
+
+.text-message {
+    display: inline-block;
+    margin: 3% auto;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 1vh;
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.result-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3vh auto;
+}
+
+.results {
+    height: 10vh;
+    width: 40vw;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5vh auto;
+    border: 2px solid silver;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 2vh;
+}
+
+.btn-rt {
+    text-align: center;
+    align-self: center;
+    width: 8vw;
+    margin-left: 46vw;
 }
 
 input[type="file"] {
